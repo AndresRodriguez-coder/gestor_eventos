@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Listado Eventos</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'lista.css' %}">
+</head>
+<body>
+    <h1>Lista De Eventos</h1>
+    <a href="{% url 'crear' %}">Crear Evento</a>
+    <ul>
+        {% for event in evento %}
+            <li>
+                {{ event.nombre }} - {{ event.descripcion }} - {{ event.nomb_org }}- 
+                {{ event.cont_org }} - {{ event.fecha }}- {{ event.lugar }}- {{ event.imagen }}
+            </li>
+        {% endfor %}
+    </ul></body>
+</html>

@@ -1,0 +1,54 @@
+/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el enlace de crear evento */
+a {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilo para la lista de eventos */
+ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+}
+
+/* Estilo para cada elemento de la lista */
+li {
+    background-color: #fff; /* Fondo blanco */
+    margin: 10px 0; /* Margen entre elementos */
+    padding: 15px; /* Padding interno */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo para la imagen si la incluyes en la lista */
+li img {
+    max-width: 100px; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-left: 10px; /* Espaciado a la izquierda */
+}
